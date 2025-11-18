@@ -60,7 +60,7 @@ public class JEIPlugin implements IModPlugin {
                 VanillaTypes.ITEM_STACK,
                 Component.translatable("create_ss_crate.jei.info.netherite_crate"));
         registration.addIngredientInfo(List.of(
-                        new ItemStack(ModBlocks.SCULK_CRATE.get()), new ItemStack(Items.SCULK), new ItemStack(Items.SCULK_SHRIEKER), new ItemStack(Items.SCULK_SENSOR), new ItemStack(Items.SCULK_VEIN), new ItemStack(Items.DEEPSLATE), new ItemStack(Items.STONE)),
+                        new ItemStack(ModBlocks.SCULK_CRATE.get()), new ItemStack(Items.SCULK), new ItemStack(Items.SCULK_SHRIEKER), new ItemStack(Items.SCULK_SENSOR), new ItemStack(Items.SCULK_VEIN), new ItemStack(Items.DEEPSLATE), new ItemStack(Items.STONE), new ItemStack(Items.COBWEB)),
                 VanillaTypes.ITEM_STACK,
                 Component.translatable("create_ss_crate.jei.info.sculk_crate"));
         registration.addIngredientInfo(List.of(
