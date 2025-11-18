@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_ss_crate:incomplete_andesite_crate_shell"
+    }
+  ],
+  "result": {
+    "item": "create:andesite_casing",
+    "count": 1
+  }
+}

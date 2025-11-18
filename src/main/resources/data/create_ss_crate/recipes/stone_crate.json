@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "BIB",
+    "ICI",
+    "WIW"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "create_ss_crate:stone_crate",
+    "count": 1
+  }
+}

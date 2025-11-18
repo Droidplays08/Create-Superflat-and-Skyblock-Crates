@@ -1,23 +1,22 @@
 package net.droidplays08.create_ss_crate.item;
 
-import net.droidplays08.create_ss_crate.CreateSSCrate;
+import net.droidplays08.create_ss_crate.Create_SS_Crate;
 import net.droidplays08.create_ss_crate.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.registries.DeferredRegister;
-
-import java.util.function.Supplier;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ModCreativeModeTabs {
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-        DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateSSCrate.MODID);
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Create_SS_Crate.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> CREATE_SS_CRATE_TAB = CREATIVE_MODE_TAB.register("create_ss_crate_tab",
+    public static final RegistryObject<CreativeModeTab> CREATE_SS_CRATE_TAB = CREATIVE_MODE_TABS.register("create_ss_crate_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.BLAZING_NETHER_CRATE.get()))
+                    .icon(() -> new ItemStack(ModBlocks.DIRT_CRATE.get()))
                     .title(Component.translatable("creativetab.create_ss_crate_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.DIRT_CRATE.get());
@@ -49,6 +48,6 @@ public class ModCreativeModeTabs {
                     .build());
 
     public static void register(IEventBus eventBus) {
-        CREATIVE_MODE_TAB.register(eventBus);
+        CREATIVE_MODE_TABS.register(eventBus);
     }
 }

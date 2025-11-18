@@ -1,0 +1,127 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_ss_crate:brass_crate_shell"
+  },
+  "transitionalItem": {
+    "item": "create_ss_crate:incomplete_deep_dark_crate"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        },
+        {
+          "item": "minecraft:sculk"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        },
+        {
+          "item": "minecraft:chiseled_deepslate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        },
+        {
+          "item": "minecraft:deepslate_tiles"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        },
+        {
+          "item": "minecraft:sculk_vein"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "nbt": {},
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ],
+      "processingTime": 20
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_deep_dark_crate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ss_crate:deep_dark_crate",
+      "count": 1
+    }
+  ],
+  "loops": 2
+}

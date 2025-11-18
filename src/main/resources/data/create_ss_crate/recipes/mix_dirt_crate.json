@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ss_crate:dirt_crate",
+      "count": 1
+    }
+  ]
+}

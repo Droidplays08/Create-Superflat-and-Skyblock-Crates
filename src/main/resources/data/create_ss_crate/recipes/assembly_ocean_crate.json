@@ -1,0 +1,127 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_ss_crate:brass_crate_shell"
+  },
+  "transitionalItem": {
+    "item": "create_ss_crate:incomplete_ocean_crate"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        },
+        {
+          "item": "minecraft:cut_sandstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        },
+        {
+          "item": "minecraft:prismarine_shard"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        },
+        {
+          "item": "minecraft:prismarine_crystals"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        },
+        {
+          "item": "minecraft:mossy_cobblestone"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        },
+        {
+          "fluid": "minecraft:water",
+          "nbt": {},
+          "amount": 1000
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ],
+      "processingTime": 20
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_ocean_crate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ss_crate:ocean_crate",
+      "count": 1
+    }
+  ],
+  "loops": 2
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "MGM",
+    "IBI",
+    "MSM"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "create_ss_crate:andesite_crate_shell"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "B": {
+      "item": "create:empty_blaze_burner"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "create_ss_crate:blazing_nether_crate",
+    "count": 1
+  }
+}

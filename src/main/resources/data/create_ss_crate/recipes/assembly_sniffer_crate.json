@@ -1,0 +1,109 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_ss_crate:brass_crate_shell"
+  },
+  "transitionalItem": {
+    "item": "create_ss_crate:incomplete_sniffer_crate"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        },
+        {
+          "tag": "minecraft:terracotta"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        },
+        {
+          "item": "minecraft:mud_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        },
+        {
+          "item": "minecraft:coarse_dirt"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ],
+      "processingTime": 20
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sniffer_crate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ss_crate:sniffer_crate",
+      "count": 1
+    }
+  ],
+  "loops": 2
+}

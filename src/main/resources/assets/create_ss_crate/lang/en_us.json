@@ -21,25 +21,10 @@
   "block.create_ss_crate.ocean_crate": "Ocean Crate",
   "block.create_ss_crate.andesite_crate_shell": "Andesite Crate Shell",
   "block.create_ss_crate.incomplete_andesite_crate_shell": "Incomplete Andesite Crate Shell",
+  "item.create_ss_crate.incomplete_nether_crate": "Incomplete Nether Crate (Unused)",
   "block.create_ss_crate.brass_crate_shell": "Brass Crate Shell",
   "block.create_ss_crate.incomplete_brass_crate_shell": "Incomplete Brass Crate Shell",
   "block.create_ss_crate.incomplete_netherite_crate": "Incomplete Netherite Crate",
 
-  "creativetab.create_ss_crate_tab": "Droid's Create SS Crates Tab",
-
-  "create_ss_crate.jei.info.dirt_crate": "§0Loot Table of Dirt Crate: \n§8(Roll x2) \n§0- Dirt (x6): 40% \n- Oak Saplings (x1): 40% \n- Bone Meal (x2): 20%",
-  "create_ss_crate.jei.info.wood_crate": "§0Loot Table of Wood Crate: \n§8(Roll x1) \n§0- Dirt (x4): 30% \n- Cobblestone (x1): 30% \n- Ice (x1): 20% \n- Lava Bucket (x1):20%",
-  "create_ss_crate.jei.info.starter_crate": "§0Loot Table of Starter Crate: \n§8(Roll x3) \n§0- Dirt (x3-6): 20% \n- Oak Logs (x2-5): 20% \n- Iron Nugget (x1-6): 30% \n- Coal (x1): 30%",
-  "create_ss_crate.jei.info.stone_crate": "§0Loot Table of Stone Crate: \n§8(Roll x3) \n§0- Pointed Dripstone (x1): 10% \n- Calcite (x1): 10% \n- Diorite (x1): 10% \n- Granite (x1): 10% \n- Tuff (x1): 20% \n- Cobbled Deepslate (x1): 20% \n- Andesite (x1): 20%",
-  "create_ss_crate.jei.info.ore_crate": "§0Loot Table of Ore Crate: \n§8(Roll x1) \n§0- Amethyst Shard (x1): 3% \n- Diamond (x1): 2% \n- Lapis Lazuli (x1): 10% \n- Copper Ingot (x1): 10% \n- Gold Ingot (x1): 10% \n- Iron Ingot (x1-2): 5% \n- Obsidian (x1): 5% \n- Coal (x1): 5% \n- Iron Nugget (x5-12): 5% \n- Zinc Ingot (x1): 5% \n- Gravel (x2-4): 10% \n- Dirt (x2-4): 15% \n- Cobblestone (x2-4): 15%",
-  "create_ss_crate.jei.info.farmer_crate": "§0Loot Table of Farmer Crate: \n§8(Roll x1) \n§0- Brown Mushroom (x1): 8% \n- Red Mushroom (x1): 8% \n- Sweet Berry (x1): 8% \n- Glow Berry (x1): 8% \n- Cocoa Bean (x1): 8% \n- Melon Seed (x1): 8% \n- Pumpkin Seed (x1): 8% \n- Kelp (x1): 8% \n- Moss Block (x1): 8% \n- Cactus (x1): 8% \n- Bamboo (x1): 8% \n- Sugar Cane (x1): 8%",
-  "create_ss_crate.jei.info.create_stone_crate": "§0Loot Table of Create Stone Crate: \n§8(Roll x2) \n§0- Ochrum (x1): 16% \n- Veridium (x1): 16% \n- Scoria (x1): 16% \n- Crimsite (x1): 16% \n- Asurine (x1): 16% \n- Limestone (x1): 16%",
-  "create_ss_crate.jei.info.nether_crate": "§0Loot Table of Nether Crate: \n§8(Roll x1) \n§0- Warped Nylium (x1): 10% \n- Crimson Nylium (x1): 10% \n- Soul Sand (x1): 20% \n- Soul Soil (x1): 20% \n- Magma Block (x1): 20% \n- Netherrack (x1): 20%",
-  "create_ss_crate.jei.info.blazing_nether_crate": "§0Loot Table of Blazing Nether Crate: \n§8(Roll x1) \n§0- Blaze Burner (x1): 10% \n- Nether Wart (x1): 10% \n- Blaze Rod (x1): 20% \n- Glowstone (x1): 20% \n- Magma Block (x1-3): 20% \n- Netherrack (x1-4): 20%",
-  "create_ss_crate.jei.info.netherite_crate": "§0Loot Table of Netherite Crate: \n§8(Roll x1) \n§0- Ancient Debris (x1): 2% \n- Wither Skeleton Skull (x1): 2% \n- Rib Armor Trim (x1): 3% \n- Netherite Smithing Template (x1): 3% \n- Music Disc Pigstep (x1): 5% \n- Gold Ingot (x1-5): 5% \n- Saddle (x1): 5% \n- Iron Horse Armor (x1): 5% \n- Gold Horse Armor (x1): 5% \n- Diamond Horse Armor (x1): 5% \n- Blaze Rod (x1-2): 10% \n- Soul Sand (x1-10): 10% \n- Lava Bucket (x1): 10% \n- Nether Wart (x1-3): 10% \n- Magma Block (x1-10): 10% \n- Netherrack (x1-10): 10%",
-  "create_ss_crate.jei.info.sculk_crate": "§0Loot Table of Sculk Crate: \n§8(Roll x1) \n§0- Stone (x1-5): 20% \n- Deepslate (x1-5): 20% \n- Sculk Vein (x1-3): 20% \n- Sculk Shrieker (x1): 10% \n- Sculk Sensor (x1): 10% \n- Sculk (x1): 20%",
-  "create_ss_crate.jei.info.deep_dark_crate": "§0Loot Table of Deep Dark Crate: \n§8(Roll x1) \n§0- Silence Armor Trim (x1): 3% \n- Snout Armor Trim (x1): 3% \n- Ward Armor Trim (x1): 3% \n- Sentry Armor Trim (x1): 3% \n- Vex Armor Trim (x1): 3% \n- Disc Fragment 5 (x1): 5% \n- Echo Shard (x1): 5% \n- Diamond Hoe (x1): 5% \n- Spore Blossom (x1): 10% \n- Sculk Sensor (x1): 10% \n- Sculk Catalyst (x1): 10% \n- Sculk (x1): 10% \n- Tuff (x1-10): 10% \n- Gravel (x1-10): 10% \n- Deepslate (x1-10): 10%",
-  "create_ss_crate.jei.info.sniffer_crate": "§0Loot Table of Sniffer Crate: \n§8(Roll x1) \n§0- Host Armor Trim (x1): 3% \n- Shaper Armor Trim (x1): 3% \n- Raiser Armor Trim (x1): 3% \n- Wayfinder Armor Trim (x1): 3% \n- Sniffer Egg (x1): 3% \n- Music Disc Relic (x1): 5% \n- Beetroot Seed (x1): 10% \n- Dead Bush (x1): 10% \n- Terracotta (x2-5): 20% \n- Gravel (x1-5): 20% \n- Dirt (x1-5): 20%",
-  "create_ss_crate.jei.info.ocean_crate": "§0Loot Table of Ocean Crate: \n§8(Roll x1) \n§0- Tide Armor Trim (x1): 3% \n- Wild Armor Trim (x1): 3% \n- Dune Armor Trim (x1): 3% \n- Coast Armor Trim (x1): 3% \n- Music Disc Otherside (x1): 2%\n- Heart of the Sea (x1): 1% \n- Prismarine (x1): 10% \n- Dark Prismarine (x1): 10% \n- TNT (x1): 3% \n- Nautilus Shell (x1): 2% \n- Gravel (x1-10): 10% \n- Sand (x1-10): 10% \n- Dirt (x1-10): 10% \n- Lapis Lazuli (x1-3): 10% \n- Emerald (x1): 10% \n- Coal (x1-3): 10%",
-  "create_ss_crate.jei.info.sherd_crate": "§0Loot Table of Sherd Crate: \n§8(Roll x1) \n§0- Equal chance of every single pottery shard."
+  "creativetab.create_ss_crate_tab": "Create: SS Crates Tab"
 }

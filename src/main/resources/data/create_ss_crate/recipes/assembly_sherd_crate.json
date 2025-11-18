@@ -1,0 +1,125 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_ss_crate:brass_crate_shell"
+  },
+  "transitionalItem": {
+    "item": "create_ss_crate:incomplete_sherd_crate"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        },
+        {
+          "item": "minecraft:bone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        },
+        {
+          "tag": "minecraft:terracotta"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        },
+        {
+          "item": "minecraft:clay"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        },
+        {
+          "item": "minecraft:brush"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ],
+      "processingTime": 20
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_sherd_crate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ss_crate:sherd_crate",
+      "count": 1
+    }
+  ],
+  "loops": 2
+}

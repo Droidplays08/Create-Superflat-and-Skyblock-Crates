@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create_ss_crate:incomplete_netherite_crate"
+    }
+  ],
+  "result": {
+    "item": "create_ss_crate:brass_crate_shell",
+    "count": 1
+  }
+}
