@@ -1,0 +1,130 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_ss_crate:stronghold_stair_crate"
+  },
+  "transitionalItem": {
+    "item": "create_ss_crate:incomplete_stronghold_crate"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        },
+        {
+          "item": "create_ss_crate:stronghold_storeroom_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        },
+        {
+          "item": "create_ss_crate:stronghold_corridor_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        },
+        {
+          "item": "create_ss_crate:stronghold_fountain_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        },
+        {
+          "item": "create_ss_crate:stronghold_jail_cell_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        },
+        {
+          "item": "create_ss_crate:stronghold_library_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        },
+        {
+          "item": "create_ss_crate:stronghold_library_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        },
+        {
+          "item": "create_ss_crate:stronghold_portal_room_crate"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_crate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ss_crate:stronghold_crate",
+      "count": 1
+    }
+  ],
+  "loops": 1
+}

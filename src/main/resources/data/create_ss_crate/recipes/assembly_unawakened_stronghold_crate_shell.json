@@ -1,0 +1,125 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_ss_crate:brass_crate_shell"
+  },
+  "transitionalItem": {
+    "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        },
+        {
+          "item": "minecraft:stone_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        },
+        {
+          "item": "minecraft:iron_bars"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        },
+        {
+          "item": "minecraft:mossy_stone_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        },
+        {
+          "item": "create:powdered_obsidian"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        },
+        {
+          "item": "minecraft:stone_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ],
+      "processingTime": 20
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_ss_crate:incomplete_unawakened_stronghold_crate_shell"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "create_ss_crate:unawakened_stronghold_crate_shell",
+      "count": 1
+    }
+  ],
+  "loops": 4
+}

@@ -24,6 +24,20 @@
     "create_ss_crate:incomplete_sherd_crate",
     "create_ss_crate:incomplete_sculk_crate",
     "create_ss_crate:incomplete_deep_dark_crate",
-    "create_ss_crate:incomplete_ocean_crate"
+    "create_ss_crate:incomplete_ocean_crate",
+    "create_ss_crate:unawakened_stronghold_crate_shell",
+    "create_ss_crate:awakened_stronghold_crate_shell",
+    "create_ss_crate:incomplete_unawakened_stronghold_crate_shell",
+    "create_ss_crate:stronghold_corridor_crate",
+    "create_ss_crate:stronghold_fountain_crate",
+    "create_ss_crate:stronghold_jail_cell_crate",
+    "create_ss_crate:stronghold_library_crate",
+    "create_ss_crate:stronghold_portal_room_crate",
+    "create_ss_crate:stronghold_stair_crate",
+    "create_ss_crate:stronghold_storeroom_crate",
+    "create_ss_crate:incomplete_stronghold_crate",
+    "create_ss_crate:stronghold_crate",
+    "create_ss_crate:end_portal_placer_crate",
+    "create_ss_crate:end_portal_breaker_crate"
   ]
 }

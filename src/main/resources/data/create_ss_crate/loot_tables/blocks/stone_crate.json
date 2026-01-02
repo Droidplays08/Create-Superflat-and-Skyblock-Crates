@@ -1,42 +1,34 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 3,
+      "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:pointed_dripstone",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:calcite",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diorite",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:granite",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tuff",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cobbled_deepslate",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:andesite",
-          "weight": 2
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "create_ss_crate:stone_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": { "min": 1 }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "create_ss_crate:blocks/crate_no_silk/stone_crate"
+            }
+          ]
         }
       ]
     }

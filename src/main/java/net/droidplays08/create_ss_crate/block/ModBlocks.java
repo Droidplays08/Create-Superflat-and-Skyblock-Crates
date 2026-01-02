@@ -167,6 +167,90 @@ public class ModBlocks {
                     .noOcclusion()
                     .mapColor(MapColor.WOOD)));
 
+    public static final RegistryObject<Block> UNAWAKENED_STRONGHOLD_CRATE_SHELL = registerBlock("unawakened_stronghold_crate_shell",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> INCOMPLETE_UNAWAKENED_STRONGHOLD_CRATE_SHELL = registerBlock("incomplete_unawakened_stronghold_crate_shell",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> AWAKENED_STRONGHOLD_CRATE_SHELL = registerBlock("awakened_stronghold_crate_shell",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_STAIR_CRATE = registerBlock("stronghold_stair_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_CORRIDOR_CRATE = registerBlock("stronghold_corridor_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_FOUNTAIN_CRATE = registerBlock("stronghold_fountain_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_JAIL_CELL_CRATE = registerBlock("stronghold_jail_cell_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_LIBRARY_CRATE = registerBlock("stronghold_library_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_PORTAL_ROOM_CRATE = registerBlock("stronghold_portal_room_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_STOREROOM_CRATE = registerBlock("stronghold_storeroom_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> STRONGHOLD_CRATE = registerBlock("stronghold_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> INCOMPLETE_STRONGHOLD_CRATE = registerBlock("incomplete_stronghold_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> END_PORTAL_PLACER_CRATE = registerBlock("end_portal_placer_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
+    public static final RegistryObject<Block> END_PORTAL_BREAKER_CRATE = registerBlock("end_portal_breaker_crate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)
+                    .strength(1.0F,2F)
+                    .noOcclusion()
+                    .mapColor(MapColor.WOOD)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

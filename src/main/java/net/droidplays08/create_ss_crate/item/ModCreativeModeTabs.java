@@ -44,6 +44,34 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ANDESITE_CRATE_SHELL.get());
                         output.accept(ModBlocks.INCOMPLETE_BRASS_CRATE_SHELL.get());
                         output.accept(ModBlocks.BRASS_CRATE_SHELL.get());
+                        output.accept(ModBlocks.INCOMPLETE_UNAWAKENED_STRONGHOLD_CRATE_SHELL.get());
+                        output.accept(ModBlocks.UNAWAKENED_STRONGHOLD_CRATE_SHELL.get());
+                        output.accept(ModBlocks.AWAKENED_STRONGHOLD_CRATE_SHELL.get());
+                        output.accept(ModItems.INCOMPLETE_STRONGHOLD_CORRIDOR_CRATE_CHUNK.get());
+                        output.accept(ModItems.STRONGHOLD_CORRIDOR_CRATE_CHUNK.get());
+                        output.accept(ModBlocks.STRONGHOLD_CORRIDOR_CRATE.get());
+                        output.accept(ModItems.INCOMPLETE_STRONGHOLD_FOUNTAIN_CRATE_CHUNK.get());
+                        output.accept(ModItems.STRONGHOLD_FOUNTAIN_CRATE_CHUNK.get());
+                        output.accept(ModBlocks.STRONGHOLD_FOUNTAIN_CRATE.get());
+                        output.accept(ModItems.INCOMPLETE_STRONGHOLD_JAIL_CELL_CRATE_CHUNK.get());
+                        output.accept(ModItems.STRONGHOLD_JAIL_CELL_CRATE_CHUNK.get());
+                        output.accept(ModBlocks.STRONGHOLD_JAIL_CELL_CRATE.get());
+                        output.accept(ModItems.INCOMPLETE_STRONGHOLD_LIBRARY_CRATE_CHUNK.get());
+                        output.accept(ModItems.STRONGHOLD_LIBRARY_CRATE_CHUNK.get());
+                        output.accept(ModBlocks.STRONGHOLD_LIBRARY_CRATE.get());
+                        output.accept(ModItems.INCOMPLETE_STRONGHOLD_PORTAL_ROOM_CRATE_CHUNK.get());
+                        output.accept(ModItems.STRONGHOLD_PORTAL_ROOM_CRATE_CHUNK.get());
+                        output.accept(ModBlocks.STRONGHOLD_PORTAL_ROOM_CRATE.get());
+                        output.accept(ModItems.INCOMPLETE_STRONGHOLD_STAIR_CRATE_CHUNK.get());
+                        output.accept(ModItems.STRONGHOLD_STAIR_CRATE_CHUNK.get());
+                        output.accept(ModBlocks.STRONGHOLD_STAIR_CRATE.get());
+                        output.accept(ModItems.INCOMPLETE_STRONGHOLD_STOREROOM_CRATE_CHUNK.get());
+                        output.accept(ModItems.STRONGHOLD_STOREROOM_CRATE_CHUNK.get());
+                        output.accept(ModBlocks.STRONGHOLD_STOREROOM_CRATE.get());
+                        output.accept(ModBlocks.INCOMPLETE_STRONGHOLD_CRATE.get());
+                        output.accept(ModBlocks.STRONGHOLD_CRATE.get());
+                        output.accept(ModBlocks.END_PORTAL_PLACER_CRATE.get());
+                        output.accept(ModBlocks.END_PORTAL_BREAKER_CRATE.get());
                     })
                     .build());
 

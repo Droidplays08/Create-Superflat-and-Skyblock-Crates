@@ -1,55 +1,34 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_mushroom"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sweet_berries"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glow_berries"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cocoa_beans"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:melon_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:kelp"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:moss_block"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cactus"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bamboo"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sugar_cane"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "create_ss_crate:farmer_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": { "min": 1 }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "create_ss_crate:blocks/crate_no_silk/farmer_crate"
+            }
+          ]
         }
       ]
     }

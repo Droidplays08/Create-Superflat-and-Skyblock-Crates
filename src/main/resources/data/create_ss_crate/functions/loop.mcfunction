@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{tag:{Tags:["spawn_end_portal"]}}}] at @s run function create_ss_crate:place_end_portal
+execute as @e[type=item,nbt={Item:{tag:{Tags:["break_end_portal"]}}}] at @s run function create_ss_crate:break_end_portal
