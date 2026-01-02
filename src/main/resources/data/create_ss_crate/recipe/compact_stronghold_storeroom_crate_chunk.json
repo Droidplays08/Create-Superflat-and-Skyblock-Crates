@@ -1,0 +1,37 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    },
+    {
+      "item": "create_ss_crate:stronghold_storeroom_crate_chunk"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_ss_crate:stronghold_storeroom_crate"
+    }
+  ]
+}

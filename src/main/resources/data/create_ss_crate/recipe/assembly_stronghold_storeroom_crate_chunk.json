@@ -1,0 +1,125 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_ss_crate:awakened_stronghold_crate_shell"
+  },
+  "transitional_item": {
+    "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        },
+        {
+          "item": "minecraft:stone_bricks"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        },
+        {
+          "tag": "minecraft:planks"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        },
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        },
+        {
+          "item": "minecraft:ladder"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        },
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ],
+      "processingTime": 20
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "create_ss_crate:stronghold_storeroom_crate_chunk",
+      "count": 1
+    }
+  ],
+  "loops": 2
+}

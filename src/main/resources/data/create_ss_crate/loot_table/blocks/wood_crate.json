@@ -1,33 +1,36 @@
 {
+  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dirt",
-          "weight": 3,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": 4
+              "type": "minecraft:item",
+              "name": "create_ss_crate:wood_crate",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {"min": 1}
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "create_ss_crate:blocks/crate_no_silk/wood_crate"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cobblestone",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ice",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:lava_bucket",
-          "weight": 2
         }
       ]
     }

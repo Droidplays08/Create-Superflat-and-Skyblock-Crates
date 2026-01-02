@@ -79,6 +79,46 @@ public class JEIPlugin implements IModPlugin {
                         new ItemStack(ModBlocks.SHERD_CRATE.get()), new ItemStack(Items.SCRAPE_POTTERY_SHERD), new ItemStack(Items.SHEAF_POTTERY_SHERD), new ItemStack(Items.SHELTER_POTTERY_SHERD), new ItemStack(Items.SKULL_POTTERY_SHERD), new ItemStack(Items.SNORT_POTTERY_SHERD), new ItemStack(Items.ANGLER_POTTERY_SHERD), new ItemStack(Items.ARCHER_POTTERY_SHERD), new ItemStack(Items.ARMS_UP_POTTERY_SHERD), new ItemStack(Items.BLADE_POTTERY_SHERD), new ItemStack(Items.BREWER_POTTERY_SHERD), new ItemStack(Items.BURN_POTTERY_SHERD), new ItemStack(Items.DANGER_POTTERY_SHERD), new ItemStack(Items.EXPLORER_POTTERY_SHERD), new ItemStack(Items.FLOW_POTTERY_SHERD), new ItemStack(Items.FRIEND_POTTERY_SHERD), new ItemStack(Items.GUSTER_POTTERY_SHERD), new ItemStack(Items.HEART_POTTERY_SHERD), new ItemStack(Items.HEARTBREAK_POTTERY_SHERD), new ItemStack(Items.HOWL_POTTERY_SHERD), new ItemStack(Items.MINER_POTTERY_SHERD), new ItemStack(Items.MOURNER_POTTERY_SHERD), new ItemStack(Items.PLENTY_POTTERY_SHERD), new ItemStack(Items.PRIZE_POTTERY_SHERD)),
                 VanillaTypes.ITEM_STACK,
                 Component.translatable("create_ss_crate.jei.info.sherd_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_CORRIDOR_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_corridor_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_FOUNTAIN_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_fountain_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_JAIL_CELL_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_jail_cell_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_LIBRARY_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_library_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_PORTAL_ROOM_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_portal_room_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_STAIR_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_stair_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_STOREROOM_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_storeroom_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.STRONGHOLD_CRATE.get()), new ItemStack(Items.END_PORTAL_FRAME), new ItemStack(Items.COBWEB), new ItemStack(Items.BOOKSHELF), new ItemStack(Items.WRITABLE_BOOK), new ItemStack(Items.ENCHANTED_BOOK), new ItemStack(Items.ENDER_PEARL), new ItemStack(Items.IRON_INGOT), new ItemStack(Items.GOLD_INGOT), new ItemStack(Items.NAME_TAG), new ItemStack(Items.COMPASS), new ItemStack(Items.END_STONE), new ItemStack(Items.STONE_BRICKS), new ItemStack(Items.EYE_ARMOR_TRIM_SMITHING_TEMPLATE), new ItemStack(Items.PAPER)),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.stronghold_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.END_PORTAL_PLACER_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.end_portal_placer_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.END_PORTAL_BREAKER_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.end_portal_breaker_crate"));
     }
 
 

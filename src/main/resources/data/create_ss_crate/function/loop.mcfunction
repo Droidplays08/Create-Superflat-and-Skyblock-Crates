@@ -1,0 +1,2 @@
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{spawn_end_portal:1b}}}}] at @s run function create_ss_crate:place_end_portal
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{break_end_portal:1b}}}}] at @s run function create_ss_crate:break_end_portal
