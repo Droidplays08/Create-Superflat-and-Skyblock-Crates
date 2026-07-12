@@ -14,7 +14,7 @@
           "item": "create_ss_crate:incomplete_stronghold_library_crate_chunk"
         },
         {
-          "item": "minecraft:stone_bricks"
+          "item": "minecraft:bookshelf"
         }
       ],
       "results": [
@@ -30,7 +30,7 @@
           "item": "create_ss_crate:incomplete_stronghold_library_crate_chunk"
         },
         {
-          "tag": "minecraft:planks"
+          "item": "minecraft:stone_bricks"
         }
       ],
       "results": [

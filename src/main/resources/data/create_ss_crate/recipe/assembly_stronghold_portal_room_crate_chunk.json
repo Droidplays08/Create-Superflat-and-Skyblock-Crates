@@ -14,6 +14,22 @@
           "item": "create_ss_crate:incomplete_stronghold_portal_room_crate_chunk"
         },
         {
+          "item": "minecraft:ender_eye"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_ss_crate:incomplete_stronghold_portal_room_crate_chunk"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_ss_crate:incomplete_stronghold_portal_room_crate_chunk"
+        },
+        {
           "item": "minecraft:stone_bricks"
         }
       ],
@@ -47,22 +63,6 @@
         },
         {
           "item": "minecraft:infested_stone_bricks"
-        }
-      ],
-      "results": [
-        {
-          "id": "create_ss_crate:incomplete_stronghold_portal_room_crate_chunk"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "create_ss_crate:incomplete_stronghold_portal_room_crate_chunk"
-        },
-        {
-          "item": "minecraft:ender_eye"
         }
       ],
       "results": [

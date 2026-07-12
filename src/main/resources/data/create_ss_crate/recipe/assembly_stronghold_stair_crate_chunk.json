@@ -14,7 +14,7 @@
           "item": "create_ss_crate:incomplete_stronghold_stair_crate_chunk"
         },
         {
-          "item": "minecraft:stone_bricks"
+          "item": "minecraft:smooth_stone_slab"
         }
       ],
       "results": [
@@ -30,7 +30,7 @@
           "item": "create_ss_crate:incomplete_stronghold_stair_crate_chunk"
         },
         {
-          "item": "minecraft:smooth_stone_slab"
+          "item": "minecraft:stone_bricks"
         }
       ],
       "results": [

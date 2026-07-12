@@ -73,6 +73,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STRONGHOLD_CRATE.get());
                         output.accept(ModBlocks.END_PORTAL_PLACER_CRATE.get());
                         output.accept(ModBlocks.END_PORTAL_BREAKER_CRATE.get());
+                        output.accept(ModBlocks.BARN_SPAWNER_CRATE.get());
+                        output.accept(ModBlocks.BARN_SPAWNER_CRATE_DECOR.get());
+                        output.accept(ModBlocks.WORKSHOP_CRATE.get());
+                        output.accept(ModBlocks.WORKSHOP_CRATE_DECOR.get());
                     })
                     .build());
 

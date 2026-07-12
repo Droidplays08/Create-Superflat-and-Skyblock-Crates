@@ -14,7 +14,7 @@
           "item": "create_ss_crate:incomplete_stronghold_jail_cell_crate_chunk"
         },
         {
-          "item": "minecraft:stone_bricks"
+          "item": "minecraft:iron_bars"
         }
       ],
       "results": [
@@ -30,7 +30,7 @@
           "item": "create_ss_crate:incomplete_stronghold_jail_cell_crate_chunk"
         },
         {
-          "item": "minecraft:iron_bars"
+          "item": "minecraft:stone_bricks"
         }
       ],
       "results": [
@@ -39,6 +39,7 @@
         }
       ]
     },
+
     {
       "type": "create:deploying",
       "ingredients": [

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create_ss_crate:end_portal_breaker_crate"
+          "name": "create_ss_crate:barn_spawner_crate_decor"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "create_ss_crate:blocks/end_portal_breaker_crate"
+  "random_sequence": "create_ss_crate:blocks/barn_spawner_crate_decor"
 }

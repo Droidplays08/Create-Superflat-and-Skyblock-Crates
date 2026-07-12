@@ -39,6 +39,10 @@
     "create_ss_crate:incomplete_stronghold_crate",
     "create_ss_crate:stronghold_crate",
     "create_ss_crate:end_portal_placer_crate",
-    "create_ss_crate:end_portal_breaker_crate"
+    "create_ss_crate:end_portal_breaker_crate",
+    "create_ss_crate:barn_spawner_crate",
+    "create_ss_crate:barn_spawner_crate_decor",
+    "create_ss_crate:workshop_crate",
+    "create_ss_crate:workshop_crate_decor"
   ]
 }

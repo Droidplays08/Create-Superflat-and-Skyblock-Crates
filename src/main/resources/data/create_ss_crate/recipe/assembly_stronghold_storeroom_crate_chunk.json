@@ -14,7 +14,7 @@
           "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
         },
         {
-          "item": "minecraft:stone_bricks"
+          "item": "minecraft:chest"
         }
       ],
       "results": [
@@ -78,7 +78,7 @@
           "item": "create_ss_crate:incomplete_stronghold_storeroom_crate_chunk"
         },
         {
-          "item": "minecraft:chest"
+          "item": "minecraft:stone_bricks"
         }
       ],
       "results": [

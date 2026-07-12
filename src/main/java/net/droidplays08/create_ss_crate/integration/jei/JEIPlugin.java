@@ -12,6 +12,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
 
 import java.util.List;
 
@@ -119,6 +120,22 @@ public class JEIPlugin implements IModPlugin {
                         new ItemStack(ModBlocks.END_PORTAL_BREAKER_CRATE.get())),
                 VanillaTypes.ITEM_STACK,
                 Component.translatable("create_ss_crate.jei.info.end_portal_breaker_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.BARN_SPAWNER_CRATE.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.barn_spawner_crate"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.BARN_SPAWNER_CRATE_DECOR.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.barn_spawner_crate_decor"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.WORKSHOP_CRATE_DECOR.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.workshop_crate_decor"));
+        registration.addIngredientInfo(List.of(
+                        new ItemStack(ModBlocks.WORKSHOP_CRATE.get()), new ItemStack(AllBlocks.SHAFT.get()), new ItemStack(AllBlocks.COGWHEEL.get()), new ItemStack(AllBlocks.LARGE_COGWHEEL.get()), new ItemStack(AllBlocks.BELT.get()), new ItemStack(AllBlocks.DEPOT.get()), new ItemStack(AllBlocks.ANDESITE_CASING.get()), new ItemStack(AllItems.ANDESITE_ALLOY.get()), new ItemStack(AllBlocks.ANDESITE_FUNNEL.get()), new ItemStack(AllBlocks.CHUTE.get()), new ItemStack(AllBlocks.HAND_CRANK.get()), new ItemStack(AllBlocks.ANDESITE_ALLOY_BLOCK.get()), new ItemStack(Items.IRON_INGOT), new ItemStack(Blocks.ANDESITE), new ItemStack(AllBlocks.ENCASED_CHAIN_DRIVE.get()), new ItemStack(AllBlocks.GEARBOX.get()), new ItemStack(AllBlocks.MILLSTONE.get()), new ItemStack(AllBlocks.WATER_WHEEL.get()), new ItemStack(AllBlocks.LARGE_WATER_WHEEL.get()), new ItemStack(AllBlocks.BASIN.get()), new ItemStack(AllBlocks.WINDMILL_BEARING.get()), new ItemStack(AllBlocks.SAIL.get()), new ItemStack(AllItems.CHOCOLATE_BERRIES.get()), new ItemStack(AllItems.HONEYED_APPLE.get()), new ItemStack(AllItems.BAR_OF_CHOCOLATE.get()), new ItemStack(AllItems.SWEET_ROLL.get()), new ItemStack(AllItems.BUILDERS_TEA.get()), new ItemStack(AllItems.TREE_FERTILIZER.get())),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("create_ss_crate.jei.info.workshop_crate"));
     }
 
 

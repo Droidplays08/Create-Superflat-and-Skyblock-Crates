@@ -2,10 +2,12 @@ package net.droidplays08.create_ss_crate.block;
 
 import net.droidplays08.create_ss_crate.CreateSSCrate;
 import net.droidplays08.create_ss_crate.item.ModItems;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.component.ItemLore;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -14,6 +16,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -316,7 +319,37 @@ public class ModBlocks {
                     .strength(1.0F,2F)
                     .noOcclusion()));
 
-    public static final DeferredBlock<Block> END_PORTAL_PLACER_CRATE = registerBlock("end_portal_placer_crate",
+    public static final DeferredBlock<Block> END_PORTAL_PLACER_CRATE = registerBlockWithLore("end_portal_placer_crate",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .sound(SoundType.WOOD)
+                    .strength(1.0F,2F)
+                    .noOcclusion()),
+            Component.translatable("item.create_ss_crate.end_portal_placer_crate.lore")
+    );
+
+    public static final DeferredBlock<Block> END_PORTAL_BREAKER_CRATE = registerBlockWithLore("end_portal_breaker_crate",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .sound(SoundType.WOOD)
+                    .strength(1.0F,2F)
+                    .noOcclusion()),
+            Component.translatable("item.create_ss_crate.end_portal_breaker_crate.lore")
+    );
+
+    public static final DeferredBlock<Block> BARN_SPAWNER_CRATE = registerBlockWithLore("barn_spawner_crate",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .sound(SoundType.WOOD)
+                    .strength(1.0F,2F)
+                    .noOcclusion()),
+            Component.translatable("item.create_ss_crate.barn_spawner_crate.lore")
+            );
+
+    public static final DeferredBlock<Block> BARN_SPAWNER_CRATE_DECOR = registerBlock("barn_spawner_crate_decor",
             () -> new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.WOOD)
                     .instrument(NoteBlockInstrument.BASS)
@@ -324,7 +357,15 @@ public class ModBlocks {
                     .strength(1.0F,2F)
                     .noOcclusion()));
 
-    public static final DeferredBlock<Block> END_PORTAL_BREAKER_CRATE = registerBlock("end_portal_breaker_crate",
+    public static final DeferredBlock<Block> WORKSHOP_CRATE = registerBlock("workshop_crate",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.WOOD)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .sound(SoundType.WOOD)
+                    .strength(1.0F,2F)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> WORKSHOP_CRATE_DECOR = registerBlock("workshop_crate_decor",
             () -> new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.WOOD)
                     .instrument(NoteBlockInstrument.BASS)
@@ -335,6 +376,18 @@ public class ModBlocks {
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
+        return toReturn;
+    }
+
+    private static <T extends Block> DeferredBlock<T> registerBlockWithLore(String name, Supplier<T> block, Component loreLine) {
+        DeferredBlock<T> toReturn = BLOCKS.register(name, block);
+
+        ModItems.ITEMS.register(name, () -> new BlockItem(toReturn.get(),
+                new Item.Properties().component(
+                        DataComponents.LORE,
+                        new ItemLore(List.of(loreLine))
+                )
+        ));
         return toReturn;
     }
 
