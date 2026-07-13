@@ -1,15 +1,15 @@
 {
-  "parent": "create_ss_crate:base/andesite_crate_shell",
+  "parent": "create_ss_crate:base/ore_crate",
   "display": {
     "icon": {
-      "id": "create_ss_crate:nether_crate",
+      "id": "create_ss_crate:andesite_crate_shell",
       "count": 1
     },
     "title": {
-      "translate": "create_ss_crate.advancement.base.nether_crate.title"
+      "translate": "create_ss_crate.advancement.base.andesite_crate_shell.title"
     },
     "description": {
-      "translate": "create_ss_crate.advancement.base.nether_crate.description"
+      "translate": "create_ss_crate.advancement.base.andesite_crate_shell.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -17,11 +17,11 @@
     "hidden": false
   },
   "criteria": {
-    "have_nether_crate": {
+    "have_andesite_crate_shell": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          { "items": ["create_ss_crate:nether_crate"] }
+          { "items": ["create_ss_crate:andesite_crate_shell"] }
         ]
       }
     }

@@ -117,6 +117,8 @@
   "create_ss_crate.advancement.base.stone_crate.description": "Andesite is the MVP of this crate, allowing you to make Andesite Alloy in Create!",
   "create_ss_crate.advancement.base.ore_crate.title": "Ore Crate",
   "create_ss_crate.advancement.base.ore_crate.description": "Vanilla mining trip packed into a crate.",
+  "create_ss_crate.advancement.base.andesite_crate_shell.title": "Andesite Crate Shell",
+  "create_ss_crate.advancement.base.andesite_crate_shell.description": "The Shell of a Crate for more Advanced Crate Recipes",
   "create_ss_crate.advancement.base.nether_crate.title": "Nether Crate",
   "create_ss_crate.advancement.base.nether_crate.description": "A supply for some of the common blocks found in the nether.",
   "create_ss_crate.advancement.base.blazing_nether_crate.title": "Blazing Nether Crate",
